@@ -33,6 +33,7 @@ else
 word.capitalize!
 end
 a = words.join(" ")
+#a = a[0].capitalize + a.delete("t") + 
 end
 return a
 end
