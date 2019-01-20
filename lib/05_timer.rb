@@ -54,3 +54,8 @@ def time_string (a)
 		end
 	end
 end
+
+# Autre possibilité beaucoup plus simple et beaucoup plus courte
+# def time_string(time)
+#	Time.at(time).utc.strftime("%H:%M:%S")
+# end
